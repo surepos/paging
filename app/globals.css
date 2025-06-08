@@ -20,5 +20,5 @@ html,
 body,
 #root,
 .app {
-  @apply h-full w-full text-sm bg-white;
+  @apply h-full w-full text-sm bg-dark-bg;
 }
