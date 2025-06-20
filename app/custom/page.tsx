@@ -88,7 +88,7 @@ export default function Custom() {
     <div className="min-h-screen bg-black text-gray-100 p-6">
       <div className="max-w-7xl mx-auto">
         <header className="mb-10">
-          <h1 className="text-4xl font-bold text-white text-center">
+          <h1 className="text-4xl font-bold text-white text-center uppercase">
           WFR Page Replacement
           </h1>
         </header>

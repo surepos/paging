@@ -21,11 +21,11 @@ export default function Home() {
           transition={{ duration: 0.4, delay: 0.1 }}
           data-tooltip-id="fcfs-tooltip"
           className="aspect-square bg-[#6E45E2] text-white flex flex-col items-center justify-center rounded-2xl border border-white/10 hover:border-white/20 shadow-[0_8px_32px_-8px_rgba(110,69,226,0.3)] hover:shadow-[0_8px_32px_-8px_rgba(110,69,226,0.5)] transition-all duration-300 hover:scale-[1.02] active:scale-95 group"
-          onClick={() => router.push('/fifo')}
+          onClick={() => router.push('/clock')}
         >
           <FiClock className="text-4xl mb-3 text-white/90 group-hover:text-white group-hover:rotate-12 transition-all" />
-          <span className="text-lg font-semibold text-white/90 group-hover:text-white">First Come First Serve</span>
-          <span className="text-sm mt-1 text-white/60 group-hover:text-white/80">Oldest page out</span>
+          <span className="text-lg font-semibold text-white/90 group-hover:text-white">Clock</span>
+          <span className="text-sm mt-1 text-white/60 group-hover:text-white/80">Referance bit based</span>
         </motion.button>
 
         <motion.button
